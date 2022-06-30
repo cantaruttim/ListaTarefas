@@ -27,3 +27,18 @@ section {
 header>h1 {
     text-align: center;
 }
+
+.resultado {
+
+    background-color: aliceblue;
+    width: 910px;
+    height: 300px;
+    align-items: center;
+    margin: auto;
+    float: left;
+    border-radius: 5px;
+}
+
+footer>p {
+    text-align: center;
+}
