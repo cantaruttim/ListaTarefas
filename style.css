@@ -11,7 +11,7 @@ body {
 
 section {
     width: 1000px;
-    height: 600px;
+    height: 800px;
     margin: auto;
 }
 
@@ -19,9 +19,10 @@ section {
     border-radius: 5px;
     background-color: aliceblue;
     width: 890px;
-    height: 200px;
+    height: 600px;
     display: inline-block;
     padding: 10px;
+    margin: auto;
 
 }
 

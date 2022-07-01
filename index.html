@@ -19,20 +19,25 @@
     <section>
         <form action="">
             <div class="bloco">
+                <div id="myDIV" class="header">
+                    <h2>My To Do List</h2>
+                    <input type="text" id="myInput" placeholder="Digite a sua tarefa">
+                    <span onclick="newElement()" class="addBtn">Add</span>
+                </div>
 
-                <p> Tarefas que desejo realizar </p>
-                <input type="text" name="tarefa" id="tarefa" placeholder="Digite a sua tarefa">
-                <input type="submit" id="send" value="Submit">
+                <ul id="myUL">
+                    <li class="checked"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
 
             </div>
 
         </form>
         </div>
-
-        <section class="resultado">
-            <input class="botao" type="button" value="Resultados">
-        </section>
-
     </section>
 
     <footer>
