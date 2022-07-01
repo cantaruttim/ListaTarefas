@@ -6,6 +6,7 @@ btn.addEventListener("click", function (e) {
 
     const name = document.querySelector('#tarefa');
     const value = name.value;
-    value.innerHTML += `${value}`
+
+    console.log(value)
 
 });
