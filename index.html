@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
 </head>
 
 <body>
@@ -15,31 +17,20 @@
     </header>
 
     <section>
-        <div class="bloco">
-            <p> Para Fazer </p>
+        <form action="">
+            <div class="bloco">
 
-            <input type="checkbox" name="tarefa">
-            <input type="text" name="nome_tarefa">
+                <p> Tarefas que desejo realizar </p>
+                <input type="text" name="tarefa" id="tarefa" placeholder="Digite a sua tarefa">
+                <input type="submit" id="send" value="Submit">
 
-        </div>
-        <div class="bloco">
-            <p> Em Progresso </p>
-            <input type="checkbox" name="tarefa">
-            <input type="text" name="nome_tarefa">
+            </div>
 
-
-        </div>
-        <div class="bloco">
-            <p> Concluída </p>
-            <input type="checkbox" name="tarefa">
-            <input type="text" name="nome_tarefa">
-
-
+        </form>
         </div>
 
         <section class="resultado">
-            <input class="botao" type="button" value="Resultados" onclick="verificar()">
-
+            <input class="botao" type="button" value="Resultados">
         </section>
 
     </section>
@@ -47,9 +38,6 @@
     <footer>
         <p>Trabalho realizado para ajudar pessoas a se organizarem no dia a dia</p>
     </footer>
-
-    <script src="script.js"></script>
-
 </body>
 
 </html>

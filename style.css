@@ -18,9 +18,10 @@ section {
 .bloco {
     border-radius: 5px;
     background-color: aliceblue;
-    width: 300px;
+    width: 890px;
     height: 200px;
     display: inline-block;
+    padding: 10px;
 
 }
 
@@ -31,12 +32,13 @@ header>h1 {
 .resultado {
 
     background-color: aliceblue;
-    width: 910px;
+    width: 890px;
     height: 300px;
     align-items: center;
     margin: auto;
     float: left;
     border-radius: 5px;
+    padding: 10px;
 }
 
 footer>p {
