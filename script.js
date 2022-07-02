@@ -11,9 +11,20 @@ btn.addEventListener("click", function (e) {
     div.appendChild(saida); // define a li como filha da div bloco
     saida.innerHTML = `${value}`; // passa o valor do input para o li
 
-    console.log(value);
+});
+
+const deletar = document.querySelector('#del')
+
+deletar.addEventListener("click", function (d) {
+    d.preventDefault();
+
+    const div = document.querySelector('.bloco_res'); //seleciona a div pai
+    const rem = document.querySelector('#itens')
+
+    div.remove(rem)
 
 });
+
 
 /* 
 // Create a "close" button and append it to each list item
