@@ -26,7 +26,6 @@ deletar.addEventListener("click", function (d) {
 
     deletar.style.backgroundColor = 'red'
 
-
     div.remove(rem)
 
 });
